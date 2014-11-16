@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Dragon Slayer</title>
+    <link href="css/dragonSlayor.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="wrapper">
+    <div id="header">
+        <img src="images/smokeCave.jpg" width="300" height="175">
+    </div>
+    <div id="story">
+        <p>
+            You have come to a cave. There is smoke coming from the mouth of the cave. <br/>You yell out to hear your
+            echo.Echo Echooo Echoooooooooo. A dragon appears from the opening. <br/>It says to you, "WHO the hell got me
+            up and has no coffee for me?"
+        </p>
+        You grab your sword. <br/>Press the button to find out if you can kill the dragon.
+        <br/>
+    </div>
+    <button class="button" onclick="myFunction()">Fight!</button>
+    <br/>
+    <br/>
+
+    <div>What happened in the FIGHT! :</div>
+    <div id="fight" class="fightDetails">
+        <div id="dragonState"></div>
+        <div id="youLive" class="youLive">
+            <img src="images/deadDragon.png" class="dragonImg"> Slash, Slash! You hit the dragon with your sword!
+            "WRRRRAAAAWWW, WTF?" says the dragon! It then realizes that it's insides are on the ground and it dies. You
+            did it! You slayed the dragon! You LIVE!
+        </div>
+        <div id="youDie" class="youDie">
+            <img src="images/yourDead.png" class="youDead">SWOOSSHHHH! You swung your sword and fell on your ass! You missed the dragon! He breathes fire on you, your
+            clothes burn off and you melt to death! You DIE!
+        </div>
+    </div>
+    <div id="power" class="dragonPower">
+        <div>The power of this Dragon:
+            <span id="hitNumber"></span>
+        </div>
+    </div>
+
+    <div id="strength" class="yourStrength">
+        <div>Your Overall Strength:</div>
+        <div id="overAll"></div>
+    </div>
+
+</div>
+<script type="text/javascript" src="js/dragon.js"></script>
+<script type="text/javascript" src="js/lib/jquery-2.1.1.min.js"></script>
+</body>
+</html>

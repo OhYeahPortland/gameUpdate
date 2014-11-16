@@ -1,0 +1,83 @@
+body {
+    background: #000000;
+    color: wheat;
+    font-family: 'trebuchet ms', verdana, arial;
+}
+
+.button {
+    background-image: -webkit-linear-gradient(top, #eb6161, #9c0303);
+    background-image: -moz-linear-gradient(top, #eb6161, #9c0303);
+    background-image: -ms-linear-gradient(top, #eb6161, #9c0303);
+    background-image: -o-linear-gradient(top, #eb6161, #9c0303);
+    background-image: linear-gradient(to bottom, #eb6161, #9c0303);
+    font-family: Arial;
+    color: honeydew;
+    text-shadow: 2px 2px gray;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+#wrapper {
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 10px;
+    text-align:left;
+    border:1px solid gray;
+    text-align: center;
+}
+
+#story {
+    text-align: left;
+    margin: 10px;
+}
+
+#header {
+    margin-top: 10px;
+}
+
+.fightDetails {
+    background-color: tan;
+    color: White;
+    text-shadow: 2px 2px gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.dragonPower {
+    background-color: orangered;
+    color: White;
+    text-shadow: 2px 2px #FF0000;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.yourStrength {
+    background-color: blue;
+    margin: 10px;
+}
+
+.youLive {
+    display: none;
+    height: 164px;
+}
+
+.youDie {
+    display: none;
+    height: 164px;
+}
+
+.dragonImg {
+    float: left;
+    margin: 10px;
+}
+
+.youDead {
+    float: left;
+    margin: 10px;
+}
